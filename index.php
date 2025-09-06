@@ -379,8 +379,8 @@ function checkUpdate() {
 }
 
 function getELInfo($n) {
-	global $amicfg;
-	static $fp, $ami;
+	global $amicfg, $ami;
+	static $fp;
 	if( empty($amicfg->host) || empty($amicfg->port) ||
 		empty($amicfg->user) || empty($amicfg->pass) || $fp === false ) {
 		return;
