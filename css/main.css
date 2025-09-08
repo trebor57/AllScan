@@ -15,7 +15,7 @@ border-radius:5px;
 body {
 margin:0px auto 7px;
 padding:0 5px;
-color:rgb(200,195,188);
+color:#edc;
 min-width:350px;
 max-width:1800px;
 text-align:center;
@@ -181,7 +181,7 @@ font-size:0.9em;
 line-height:1.2;
 overflow-y:scroll;
 resize:both;
-color:#aaa;
+color:#ccc;
 }
 #scanmsg {
 color:#999;
