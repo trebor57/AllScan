@@ -53,6 +53,8 @@ Log into your node by SSH and run the following commands:
 	chmod 755 AllScanInstallUpdate.php
 	sudo ./AllScanInstallUpdate.php
 
+(HamVOIP only: The first line above should instead be: sudo pacman -Syu; sudo pacman -Sy php php-sqlite3 php-curl unzip avahi-daemon)
+
 The Install/Update script will provide detailed status messages on each step of the process. Carefully review all output messages and confirm no errors occur.
 
 Now open a browser and go to your node's mDNS or IP address followed by /allscan/, eg. `http://[hostname].local/allscan/` and be sure to add a browser bookmark. (It is recommended to set your node's host name to 'node' followed by your node# eg. 'node567890'. You can check the host name with the 'hostname' command, and can change the host name by running 'sudo hostnamectl set-hostname [new hostname]'.) If the node's IAX port is forwarded in your router it can be accessed from the internet at `http://[node#].nodes.allstarlink.org`.
